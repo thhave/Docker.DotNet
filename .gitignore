@@ -183,3 +183,5 @@ FakesAssemblies/
 
 # NuGet Packages Folder
 packages/
+
+.idea/
