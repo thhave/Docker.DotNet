@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <IsPackable>true</IsPackable>
-    <PackageId>Docker.DotNet.BasicAuth</PackageId>
+    <PackageId>Thhave.Docker.DotNet.BasicAuth</PackageId>
     <Description>Docker.DotNet.BasicAuth is a library that allows you to use basic authentication with a remote Docker engine programmatically in your .NET applications.</Description>
     <TargetFrameworks>netstandard2.0;netstandard1.6;net46;net45</TargetFrameworks>
     <AssemblyName>Docker.DotNet.BasicAuth</AssemblyName>

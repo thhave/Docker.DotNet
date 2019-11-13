@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <IsPackable>true</IsPackable>
-    <PackageId>Docker.DotNet.X509</PackageId>
+    <PackageId>Thhave.Docker.DotNet.X509</PackageId>
     <Description>Docker.DotNet.X509 is a library that allows you to use certificate authentication with a remote Docker engine programmatically in your .NET applications.</Description>
     <TargetFrameworks>netstandard2.0;netstandard1.6;net46;net45</TargetFrameworks>
     <AssemblyName>Docker.DotNet.X509</AssemblyName>
