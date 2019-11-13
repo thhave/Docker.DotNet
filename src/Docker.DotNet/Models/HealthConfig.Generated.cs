@@ -21,5 +21,9 @@ namespace Docker.DotNet.Models
 
         [DataMember(Name = "Retries", EmitDefaultValue = false)]
         public long Retries { get; set; }
+
+        [DataMember(Name = "StartPeriod", EmitDefaultValue = false)]
+        [JsonConverter(typeof(TimeSpanNanosecondsConverter))]
+        public TimeSpan StartPeriod { get; set; }
     }
 }
