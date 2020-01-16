@@ -8,5 +8,8 @@ namespace Docker.DotNet.Models
     {
         [DataMember(Name = "Constraints", EmitDefaultValue = false)]
         public IList<string> Constraints { get; set; }
+
+        [DataMember(Name = "MaxReplicas", EmitDefaultValue = false)]
+        public ulong? MaxReplicasPerNode { get; set; }
     }
 }
