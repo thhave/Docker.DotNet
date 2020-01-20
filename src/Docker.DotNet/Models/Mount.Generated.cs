@@ -25,5 +25,8 @@ namespace Docker.DotNet.Models
 
         [DataMember(Name = "TmpfsOptions", EmitDefaultValue = false)]
         public TmpfsOptions TmpfsOptions { get; set; }
+
+        [DataMember(Name = "Consistency", EmitDefaultValue = false)]
+        public string Consistency { get; set; }
     }
 }
