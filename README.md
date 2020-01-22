@@ -1,5 +1,7 @@
 ﻿# .NET Client for Docker Remote API
 
+<img src="https://ci.appveyor.com/api/projects/status/yxpx7fem6i3hvnff?svg=true"/>
+
 This library allows you to interact with [Docker Remote API][docker-remote-api]  endpoints in your .NET applications.
 
 It is fully asynchronous, designed to be non-blocking and object-oriented way to interact with your Docker daemon programmatically.
