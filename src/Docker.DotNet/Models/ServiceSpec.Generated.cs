@@ -35,7 +35,7 @@ namespace Docker.DotNet.Models
         public SwarmUpdateConfig UpdateConfig { get; set; }
 
         [DataMember(Name = "RollbackConfig", EmitDefaultValue = false)]
-        public SwarmRollbackConfig RollbackConfig { get; set; }
+        public SwarmUpdateConfig RollbackConfig { get; set; }
 
         [DataMember(Name = "Networks", EmitDefaultValue = false)]
         public IList<NetworkAttachmentConfig> Networks { get; set; }

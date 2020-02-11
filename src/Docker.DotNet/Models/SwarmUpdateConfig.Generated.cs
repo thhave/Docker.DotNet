@@ -19,7 +19,7 @@ namespace Docker.DotNet.Models
 
         [DataMember(Name = "MaxFailureRatio", EmitDefaultValue = false)]
         public float MaxFailureRatio { get; set; }
-        
+
         [DataMember(Name = "Order", EmitDefaultValue = false)]
         public string Order { get; set; }
     }
