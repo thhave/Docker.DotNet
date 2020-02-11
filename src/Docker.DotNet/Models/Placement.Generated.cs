@@ -15,9 +15,6 @@ namespace Docker.DotNet.Models
         [DataMember(Name = "MaxReplicas", EmitDefaultValue = false)]
         public ulong? MaxReplicasPerNode { get; set; }
 
-        [DataMember(Name = "MaxReplicas", EmitDefaultValue = false)]
-        public ulong MaxReplicas { get; set; }
-
         [DataMember(Name = "Platforms", EmitDefaultValue = false)]
         public IList<Platform> Platforms { get; set; }
     }
