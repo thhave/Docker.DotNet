@@ -1,5 +1,7 @@
+using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
+using Newtonsoft.Json;
 
 namespace Docker.DotNet.Models
 {
@@ -54,8 +56,9 @@ namespace Docker.DotNet.Models
         [DataMember(Name = "Mounts", EmitDefaultValue = false)]
         public IList<Mount> Mounts { get; set; }
 
+        [JsonConverter(typeof(TimeSpanNanosecondsConverter))]
         [DataMember(Name = "StopGracePeriod", EmitDefaultValue = false)]
-        public long? StopGracePeriod { get; set; }
+        public TimeSpan StopGracePeriod { get; set; }
 
         [DataMember(Name = "Healthcheck", EmitDefaultValue = false)]
         public HealthConfig Healthcheck { get; set; }
